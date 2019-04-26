@@ -32,7 +32,7 @@ function onload(){
 }
 
 function updateSportList(data){
-	$('.sports-list').append(`<li>${data.sport.name}</li>`);
+	$('#sports').append(`<li>${data.sport.name}</li>`);
 }
 
 function addNewSport(name, id){

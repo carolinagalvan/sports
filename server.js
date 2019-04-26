@@ -55,7 +55,7 @@ function closeServer(){
         });
 }
 
-runServer(PORT, DATABASE_URL )
+runServer(PORT, DATABASE_URL)
     .catch(err => console.log(err));
 
 module.exports = {app, runServer, closeServer}
